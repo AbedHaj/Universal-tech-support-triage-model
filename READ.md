@@ -17,10 +17,10 @@ To develop a model that automatically analyzes incoming bug-report tickets and p
 1. which component of the company’s workflow the issue originates from.
 2. the severity level of the issue.
 
-## Used Models
-## 1. Baseline:
+
+## Baseline models:
        -- Zero shot & Supervised fine tuned classifier
-## 2. Models & Inference:     
+## Models & Inference:     
        -- DistilBERT: For severity classification
        -- Llama 3.2: For component attribution
        -- GPT 3.5: For data generation
