@@ -1,0 +1,1062 @@
+[
+    {
+        "example_id": 1,
+        "system": {
+            "system": "HRM",
+            "description": "Human Resource Management system for managing employee information and processes."
+        },
+        "industry": {
+            "industry": "Energy",
+            "description": "Sector focused on the production and supply of power, including electricity, natural gas, and renewable energy sources."
+        },
+        "workflow": {
+            "workflow_name": "Employee Lifecycle Management in Energy Industry",
+            "workflow_description": "This workflow manages the complete lifecycle of employees within the energy industry, including processes related to recruitment, onboarding, performance management, and offboarding.",
+            "workflow_components": [
+                {
+                    "name": "HRM Workflow Engine",
+                    "description": "Orchestrates process logic, approval routing, and state transitions for employee lifecycle events (recruitment, onboarding, performance, offboarding)."
+                },
+                {
+                    "name": "Employee Data Store",
+                    "description": "Centralized database housing employee profiles, employment history, skills, and certifications."
+                },
+                {
+                    "name": "Payroll Processing Module",
+                    "description": "Computes salaries, tax deductions, and benefits, integrates with financial systems for budgeting and forecasting."
+                },
+                {
+                    "name": "Attendance Tracking System",
+                    "description": "Manages shift scheduling, clock-in/out logs, leave requests (PTO), and overtime calculations for employees in various operational roles in the energy industry."
+                },
+                {
+                    "name": "Learning and Development Platform",
+                    "description": "Tracks employee training, certifications, and development plans aligned with industry regulations and safety standards."
+                }
+            ]
+        },
+        "malfunction": {
+            "affected_component": {
+                "name": "HRM Workflow Engine",
+                "description": "Orchestrates process logic, approval routing, and state transitions for employee lifecycle events (recruitment, onboarding, performance, offboarding)."
+            },
+            "malfunction_description": "The HRM Workflow Engine experiences critical issues where it fails to trigger the appropriate state transitions for employee offboarding. As a result, departing employees' access to critical systems and applications remains active, posing a significant security risk to the organization. This malfunction can lead to unauthorized access, data breaches, and compliance violations.",
+            "severity": "critical"
+        },
+        "user_complaint": {
+            "user_complaint": "I have encountered a critical issue with the HRM Workflow Engine. Despite being experienced with the system, I am encountering a major roadblock in the offboarding process. The engine fails to trigger the necessary state transitions for employee offboarding, leaving departing employees with active access to critical systems and applications. This poses a significant security risk to the organization, potentially leading to unauthorized access, data breaches, and compliance violations. I urge for immediate attention to rectify this issue as it severely impacts our ability to maintain a secure offboarding process.",
+            "user_attributes": {
+                "user_experience": "experienced",
+                "communication_style": "calm",
+                "issue_category": "cannot complete task"
+            }
+        }
+    },
+    {
+        "example_id": 2,
+        "system": {
+            "system": "DMS",
+            "description": "Document Management System for storing, managing, and tracking electronic documents and images."
+        },
+        "industry": {
+            "industry": "Healthcare",
+            "description": "Industry involved in the maintenance or improvement of health via the diagnosis, treatment, and prevention of disease, illness, injury, and other physical and mental impairments."
+        },
+        "workflow": {
+            "workflow_name": "Electronic Document Management in Healthcare",
+            "workflow_description": "This workflow involves the management and tracking of electronic documents and images in the healthcare industry, enabling storage and retrieval of critical patient and administrative records.",
+            "workflow_components": [
+                {
+                    "name": "Document Storage Repository",
+                    "description": "Centralized storage system for storing electronic documents and images, integrated with data archival policies and access control mechanisms to ensure data integrity and security."
+                },
+                {
+                    "name": "Metadata Management System",
+                    "description": "Captures and organizes metadata associated with medical records and administrative documents, facilitating efficient indexing, search, and retrieval processes."
+                },
+                {
+                    "name": "Workflow Automation Engine",
+                    "description": "Orchestrates document approval workflows, version control, and notification mechanisms, ensuring seamless collaboration and compliance with regulatory requirements."
+                },
+                {
+                    "name": "Record Tracking and Audit Trail",
+                    "description": "Maintains an audit trail of document access, modifications, and viewing history, providing transparency and accountability for document handling within the healthcare organization."
+                },
+                {
+                    "name": "Integration Interfaces",
+                    "description": "Provides interfaces for integration with Electronic Health Records (EHR) systems, Imaging systems, and third-party applications, enabling seamless exchange of information across healthcare platforms."
+                }
+            ]
+        },
+        "malfunction": {
+            "affected_component": {
+                "name": "Integration Interfaces",
+                "description": "Provides interfaces for integration with Electronic Health Records (EHR) systems, Imaging systems, and third-party applications, enabling seamless exchange of information across healthcare platforms."
+            },
+            "malfunction_description": "The Integration Interfaces are failing to establish connections with Electronic Health Records (EHR) systems and Imaging systems, resulting in the inability to exchange critical patient information and images across healthcare platforms. As a result, healthcare providers are unable to access and retrieve essential patient records, leading to potential patient care risks and compliance issues.",
+            "severity": "critical"
+        },
+        "user_complaint": {
+            "user_complaint": "This is an urgent situation! The Integration Interfaces are failing to connect with the Electronic Health Records (EHR) systems and Imaging systems, putting patient data at risk. As an experienced user, I understand the severity of this security concern and the potential impact on patient care.",
+            "user_attributes": {
+                "user_experience": "expert",
+                "communication_style": "urgent",
+                "issue_category": "security concern"
+            }
+        }
+    },
+    {
+        "example_id": 3,
+        "system": {
+            "system": "CMS",
+            "description": "Content Management System for creating and managing digital content."
+        },
+        "industry": {
+            "industry": "Agriculture",
+            "description": "Field involved in cultivating land, raising crops, and rearing livestock for food, fiber, biofuel, and other products."
+        },
+        "workflow": {
+            "workflow_name": "Content Management in Agriculture",
+            "workflow_description": "This workflow involves the creation and management of digital content related to the cultivation, raising of crops, and rearing livestock in the agriculture industry.",
+            "workflow_components": [
+                {
+                    "name": "Content Creation Tool",
+                    "description": "A tool for creating digital content such as articles, images, and videos related to agricultural practices and products."
+                },
+                {
+                    "name": "Digital Asset Management System",
+                    "description": "Centralized system for storing, organizing, and retrieving digital assets such as images, videos, and documents related to agriculture."
+                },
+                {
+                    "name": "Content Approval Workflow",
+                    "description": "Manages the review and approval process for content created by authors, subject matter experts, and stakeholders in the agricultural industry."
+                },
+                {
+                    "name": "SEO Optimization Tool",
+                    "description": "Tool for optimizing digital content to improve visibility and search engine rankings for agricultural products and practices."
+                },
+                {
+                    "name": "Multi-channel Publishing Platform",
+                    "description": "System for distributing digital content across various platforms such as websites, social media, and agricultural product marketplaces."
+                }
+            ]
+        },
+        "malfunction": {
+            "affected_component": {
+                "name": "Digital Asset Management System",
+                "description": "Centralized system for storing, organizing, and retrieving digital assets such as images, videos, and documents related to agriculture."
+            },
+            "malfunction_description": "The Digital Asset Management System is experiencing intermittent issues with file retrieval, resulting in slow access to digital assets. Users are facing delays in accessing important images, videos, and documents necessary for content creation and management in the agriculture industry, impacting the overall efficiency of the workflow.",
+            "severity": "medium"
+        },
+        "user_complaint": {
+            "user_complaint": "I'm having trouble accessing the digital assets and it's slowing down my work significantly. I need to retrieve important files quickly to manage our agriculture content, but the system keeps causing delays. This is a big security concern for our data.",
+            "user_attributes": {
+                "user_experience": "novice",
+                "communication_style": "urgent",
+                "issue_category": "security concern"
+            }
+        }
+    },
+    {
+        "example_id": 4,
+        "system": {
+            "system": "E-Business",
+            "description": "E-Business suite for managing online business transactions and interactions with customers, suppliers, and partners."
+        },
+        "industry": {
+            "industry": "Technology",
+            "description": "Field that involves the application of scientific knowledge for practical purposes, especially in the development of machinery, devices, or systems."
+        },
+        "workflow": {
+            "workflow_name": "E-Business Transaction Management",
+            "workflow_description": "This workflow facilitates the management of online business transactions and interactions with customers, suppliers, and partners in the Technology industry.",
+            "workflow_components": [
+                {
+                    "name": "Customer Relationship Management (CRM) System",
+                    "description": "Centralized platform for managing customer interactions, automating sales processes, and storing customer data."
+                },
+                {
+                    "name": "Supplier Relationship Management (SRM) System",
+                    "description": "Facilitates interaction and communication with suppliers, manages procurement activities, and tracks supplier performance."
+                },
+                {
+                    "name": "E-Commerce Platform",
+                    "description": "Enables online sales, catalog management, order processing, and secure payment transactions."
+                },
+                {
+                    "name": "Enterprise Resource Planning (ERP) System",
+                    "description": "Coordinates and integrates core business processes such as finance, HR, inventory management, and supply chain."
+                },
+                {
+                    "name": "Partner Collaboration Portal",
+                    "description": "Provides a secure platform for partners to access resources, collaborate on projects, and share information."
+                }
+            ]
+        },
+        "malfunction": {
+            "affected_component": {
+                "name": "Customer Relationship Management (CRM) System",
+                "description": "Centralized platform for managing customer interactions, automating sales processes, and storing customer data."
+            },
+            "malfunction_description": "The CRM system experiences a critical malfunction where it repeatedly fails to capture and store customer interactions and transactions within the E-Business Transaction Management workflow. This results in a loss of crucial customer data, inaccurate sales reporting, and hindrance to online business transaction management. As a consequence, the workflow's capability to effectively manage online business transactions and interactions with customers, suppliers, and partners in the Technology industry is severely compromised.",
+            "severity": "critical"
+        },
+        "user_complaint": {
+            "user_complaint": "I'm extremely frustrated with the CRM system malfunction! It's repeatedly failing to capture and store customer interactions and transactions within the E-Business Transaction Management workflow. This is causing a loss of crucial customer data and impacting sales reporting accuracy. The online business transaction management is severely compromised as a result. This critical issue is affecting our ability to effectively manage transactions and customer interactions in the Technology industry!",
+            "user_attributes": {
+                "user_experience": "experienced",
+                "communication_style": "frustrated",
+                "issue_category": "data inconsistency"
+            }
+        }
+    },
+    {
+        "example_id": 5,
+        "system": {
+            "system": "CRM",
+            "description": "Customer Relationship Management system for managing interactions with current and potential clients."
+        },
+        "industry": {
+            "industry": "Technology",
+            "description": "Field that involves the application of scientific knowledge for practical purposes, especially in the development of machinery, devices, or systems."
+        },
+        "workflow": {
+            "workflow_name": "Customer Relationship Management in Technology Industry",
+            "workflow_description": "This workflow focuses on managing interactions with current and potential clients in the technology industry, encompassing sales, marketing, and customer service processes throughout the customer lifecycle.",
+            "workflow_components": [
+                {
+                    "name": "Lead Management System",
+                    "description": "Tracks and manages potential customer leads generated through marketing efforts or referrals."
+                },
+                {
+                    "name": "Contact Database",
+                    "description": "Centralized repository of customer and prospect contact information, communication history, and preferences."
+                },
+                {
+                    "name": "Sales Pipeline Management",
+                    "description": "Facilitates tracking of sales opportunities, stages, and forecasts, enabling efficient conversion of leads into customers."
+                },
+                {
+                    "name": "Customer Support Ticketing System",
+                    "description": "Capture, prioritize, and resolve customer support requests, ensuring efficient resolution and customer satisfaction."
+                },
+                {
+                    "name": "Marketing Automation Platform",
+                    "description": "Automates and streamlines marketing campaigns, lead nurturing, and customer communication to drive engagement and conversions."
+                }
+            ]
+        },
+        "malfunction": {
+            "affected_component": {
+                "name": "Sales Pipeline Management",
+                "description": "Facilitates tracking of sales opportunities, stages, and forecasts, enabling efficient conversion of leads into customers."
+            },
+            "malfunction_description": "The Sales Pipeline Management system experiences a critical malfunction where it fails to properly update the sales stages of potential clients in the technology industry workflow. This issue leads to inaccurate forecasting, missed sales opportunities, and inefficiencies in lead conversions, significantly impacting the overall sales performance of the organization.",
+            "severity": "critical"
+        },
+        "user_complaint": {
+            "user_complaint": "I've noticed a critical issue with the Sales Pipeline Management system. It's failing to update the sales stages of potential clients in the technology industry workflow, leading to inaccurate forecasting, missed sales opportunities, and inefficiencies in lead conversions. This is a serious concern as it impacts the overall sales performance of the organization.",
+            "user_attributes": {
+                "user_experience": "experienced",
+                "communication_style": "calm",
+                "issue_category": "security concern"
+            }
+        }
+    },
+    {
+        "example_id": 6,
+        "system": {
+            "system": "CRM",
+            "description": "Customer Relationship Management system for managing interactions with current and potential clients."
+        },
+        "industry": {
+            "industry": "Healthcare",
+            "description": "Industry involved in the maintenance or improvement of health via the diagnosis, treatment, and prevention of disease, illness, injury, and other physical and mental impairments."
+        },
+        "workflow": {
+            "workflow_name": "Client Relationship Management in Healthcare",
+            "workflow_description": "This workflow involves the management of interactions and communications with current and potential clients within the healthcare industry. It aims to track patient interactions, manage appointments, and support various customer service activities.",
+            "workflow_components": [
+                {
+                    "name": "Patient Information Management System",
+                    "description": "Centralized database for storing patient information, medical history, treatment plans, and appointment schedules."
+                },
+                {
+                    "name": "Appointment Scheduling Module",
+                    "description": "Facilitates the booking of patient appointments, manages availability of healthcare providers, and sends appointment reminders."
+                },
+                {
+                    "name": "Communication and Engagement Platform",
+                    "description": "Enables communication with patients via multiple channels such as email, SMS, and patient portal for sharing educational materials, test results, and follow-up instructions."
+                },
+                {
+                    "name": "Feedback and Survey Management",
+                    "description": "Captures patient feedback, satisfaction surveys, and helps in analyzing patient experience to improve service quality."
+                },
+                {
+                    "name": "Analytics and Reporting Tool",
+                    "description": "Generates insights on patient interactions, appointment trends, and client preferences to support strategic decision-making."
+                }
+            ]
+        },
+        "malfunction": {
+            "affected_component": {
+                "name": "Feedback and Survey Management",
+                "description": "Captures patient feedback, satisfaction surveys, and helps in analyzing patient experience to improve service quality."
+            },
+            "malfunction_description": "The Feedback and Survey Management system is experiencing a critical malfunction where it fails to capture patient feedback and satisfaction surveys. As a result, the healthcare organization is unable to collect and analyze crucial data that is essential for improving service quality and patient experience. This issue significantly hinders the ability to assess and address customer satisfaction, leading to potential customer dissatisfaction and negative impact on service quality.",
+            "severity": "critical"
+        },
+        "user_complaint": {
+            "user_complaint": "This is a critical security concern! The Feedback and Survey Management system is failing to capture patient feedback and satisfaction surveys, which is essential for improving service quality and patient experience. This issue severely hinders our ability to assess and address customer satisfaction, potentially leading to customer dissatisfaction and negatively impacting service quality. Urgent action is needed to address this issue and protect sensitive patient data.",
+            "user_attributes": {
+                "user_experience": "expert",
+                "communication_style": "urgent",
+                "issue_category": "security concern"
+            }
+        }
+    },
+    {
+        "example_id": 7,
+        "system": {
+            "system": "SCM",
+            "description": "Supply Chain Management system for optimizing the flow of goods and services."
+        },
+        "industry": {
+            "industry": "Healthcare",
+            "description": "Industry involved in the maintenance or improvement of health via the diagnosis, treatment, and prevention of disease, illness, injury, and other physical and mental impairments."
+        },
+        "workflow": {
+            "workflow_name": "Supply Chain Management in Healthcare",
+            "workflow_description": "This workflow optimizes the flow of goods and services within the healthcare industry, ensuring timely access to medical supplies and equipment to support the diagnosis, treatment, and prevention of diseases and illnesses.",
+            "workflow_components": [
+                {
+                    "name": "Inventory Management System",
+                    "description": "Tracks medical inventory levels, anticipates demand, and automates reorder processes to avoid stockouts and overstock situations."
+                },
+                {
+                    "name": "Supplier Relationship Management",
+                    "description": "Manages supplier selection, communication, and performance evaluation to ensure the timely and quality delivery of medical supplies and equipment."
+                },
+                {
+                    "name": "Logistics and Distribution Platform",
+                    "description": "Optimizes the distribution of medical supplies and equipment across healthcare facilities, considering storage conditions and transportation logistics."
+                },
+                {
+                    "name": "Demand Forecasting and Planning Module",
+                    "description": "Uses historical data and predictive analytics to forecast the demand for medical supplies and equipment, facilitating proactive inventory management."
+                },
+                {
+                    "name": "Quality Control and Compliance System",
+                    "description": "Monitors and ensures the quality, safety, and regulatory compliance of medical supplies and equipment throughout the supply chain."
+                }
+            ]
+        },
+        "malfunction": {
+            "affected_component": {
+                "name": "Quality Control and Compliance System",
+                "description": "Monitors and ensures the quality, safety, and regulatory compliance of medical supplies and equipment throughout the supply chain."
+            },
+            "malfunction_description": "The Quality Control and Compliance System has stopped sending out alerts for non-compliant or substandard medical supplies and equipment within the supply chain, leading to potential distribution of unsafe or non-compliant products to healthcare facilities. This critical malfunction compromises patient safety and regulatory compliance, posing a significant risk to the healthcare industry.",
+            "severity": "critical"
+        },
+        "user_complaint": {
+            "user_complaint": "I am really frustrated! The Quality Control and Compliance System has completely stopped alerting us about non-compliant or substandard medical supplies. This is critical for ensuring patient safety and regulatory compliance in healthcare, and the system not functioning properly puts us at risk!",
+            "user_attributes": {
+                "user_experience": "novice",
+                "communication_style": "frustrated",
+                "issue_category": "data inconsistency"
+            }
+        }
+    },
+    {
+        "example_id": 8,
+        "system": {
+            "system": "ERP System",
+            "description": "A comprehensive suite for managing core business processes."
+        },
+        "industry": {
+            "industry": "Education",
+            "description": "Sector dedicated to the teaching, training, and development of knowledge and skills for personal or professional pursuits."
+        },
+        "workflow": {
+            "workflow_name": "Student Enrollment and Course Management",
+            "workflow_description": "This workflow handles the student enrollment process and the management of courses within an educational institution, ensuring efficient allocation of resources and optimal student experience.",
+            "workflow_components": [
+                {
+                    "name": "Student Information System",
+                    "description": "Centralized database storing student records, academic performance, and course selection data."
+                },
+                {
+                    "name": "Course Scheduler",
+                    "description": "Module for creating and managing class schedules, allocating resources, and ensuring course availability for students."
+                },
+                {
+                    "name": "Financial Aid Management System",
+                    "description": "Handles the application, verification, and distribution of financial aid to eligible students."
+                },
+                {
+                    "name": "Resource Allocation Engine",
+                    "description": "Optimizes the allocation of physical and human resources based on course demand and availability."
+                },
+                {
+                    "name": "Course Evaluation and Feedback System",
+                    "description": "Facilitates student feedback, course evaluations, and performance assessments to improve teaching quality."
+                }
+            ]
+        },
+        "malfunction": {
+            "affected_component": {
+                "name": "Course Evaluation and Feedback System",
+                "description": "Facilitates student feedback, course evaluations, and performance assessments to improve teaching quality."
+            },
+            "malfunction_description": "The Course Evaluation and Feedback System experiences a critical malfunction where it fails to capture and store student feedback and course evaluations. As a result, instructors are unable to access critical feedback to improve their teaching quality, and the institution's ability to assess and improve course performance is compromised.",
+            "severity": "critical"
+        },
+        "user_complaint": {
+            "user_complaint": "I am really frustrated with the Course Evaluation and Feedback System! It's not capturing and storing student feedback and course evaluations properly. This is a critical issue as it directly impacts the institution's ability to assess and improve course performance, and it's compromising the quality of teaching. I'm worried about the security of the feedback data too!",
+            "user_attributes": {
+                "user_experience": "novice",
+                "communication_style": "frustrated",
+                "issue_category": "security concern"
+            }
+        }
+    },
+    {
+        "example_id": 9,
+        "system": {
+            "system": "CMS",
+            "description": "Content Management System for creating and managing digital content."
+        },
+        "industry": {
+            "industry": "Education",
+            "description": "Sector dedicated to the teaching, training, and development of knowledge and skills for personal or professional pursuits."
+        },
+        "workflow": {
+            "workflow_name": "Digital Content Management in Education Industry",
+            "workflow_description": "This workflow enables the creation and management of digital content for educational purposes within the education industry.",
+            "workflow_components": [
+                {
+                    "name": "Content Creation Tool",
+                    "description": "A user-friendly interface for educators to create and upload digital content such as lesson plans, presentations, and assignments."
+                },
+                {
+                    "name": "Content Repository",
+                    "description": "Centralized storage for organizing and storing digital content, with access controls and versioning to ensure accuracy and security."
+                },
+                {
+                    "name": "Collaboration Platform",
+                    "description": "Facilitates real-time collaboration and feedback among educators, allowing them to co-create content and provide peer reviews."
+                },
+                {
+                    "name": "Content Delivery System",
+                    "description": "Manages the distribution of digital content to students, ensuring seamless access across various devices and platforms."
+                },
+                {
+                    "name": "Analytics and Reporting Module",
+                    "description": "Tracks usage metrics, engagement, and performance of digital content, providing insights for continuous improvement."
+                }
+            ]
+        },
+        "malfunction": {
+            "affected_component": {
+                "name": "Content Repository",
+                "description": "Centralized storage for organizing and storing digital content, with access controls and versioning to ensure accuracy and security."
+            },
+            "malfunction_description": "The Content Repository intermittently fails to apply access controls and versioning to uploaded educational content within the Digital Content Management in Education Industry workflow. This results in unauthorized access to sensitive educational materials and the potential for outdated or inaccurate content to be mistakenly distributed to students and educators.",
+            "severity": "medium"
+        },
+        "user_complaint": {
+            "user_complaint": "I urgently need the Content Repository issue fixed as soon as possible. As an expert user, the intermittent failure to apply access controls and versioning to educational content is putting sensitive materials at risk and potentially distributing outdated or inaccurate content to students. This is a critical problem that needs immediate attention!",
+            "user_attributes": {
+                "user_experience": "expert",
+                "communication_style": "urgent",
+                "issue_category": "security concern"
+            }
+        }
+    },
+    {
+        "example_id": 10,
+        "system": {
+            "system": "HRM",
+            "description": "Human Resource Management system for managing employee information and processes."
+        },
+        "industry": {
+            "industry": "Hospitality",
+            "description": "Industry encompassing accommodation, food and beverage services, and entertainment to meet the needs of travelers and tourists."
+        },
+        "workflow": {
+            "workflow_name": "Employee Lifecycle Management in Hospitality HRM",
+            "workflow_description": "This workflow oversees the comprehensive management of employee information and processes within the hospitality industry, encompassing accommodation, food and beverage services, and entertainment to meet the needs of travelers and tourists.",
+            "workflow_components": [
+                {
+                    "name": "HRM Workflow Engine",
+                    "description": "Manages employee lifecycle events (onboarding, termination), oversees process logic, approval routing, and state transitions."
+                },
+                {
+                    "name": "Employee Data Store",
+                    "description": "Stores and manages sensitive personal information (PII), employment history, training records, and performance evaluations."
+                },
+                {
+                    "name": "Payroll Processing Module",
+                    "description": "Calculates employee salaries, tax deductions, benefits, and executes payment processing (bank transfers, cheques)."
+                },
+                {
+                    "name": "Attendance Tracking System",
+                    "description": "Tracks employee shift scheduling, clock-in/out logs, leave requests (PTO), and overtime calculations for accurate payroll."
+                },
+                {
+                    "name": "Training & Development Manager",
+                    "description": "Manages training programs, tracks employee skill development, and ensures compliance with industry standards and regulations."
+                }
+            ]
+        },
+        "malfunction": {
+            "affected_component": {
+                "name": "Attendance Tracking System",
+                "description": "Tracks employee shift scheduling, clock-in/out logs, leave requests (PTO), and overtime calculations for accurate payroll."
+            },
+            "malfunction_description": "The Attendance Tracking System is experiencing critical issues where it fails to accurately capture and record employee clock-in/out logs and leave requests. This has led to discrepancies in payroll calculations and employee attendance records, causing significant operational disruptions and potential legal compliance issues.",
+            "severity": "critical"
+        },
+        "user_complaint": {
+            "user_complaint": "I have noticed some critical issues with the Attendance Tracking System. It's failing to accurately capture and record employee clock-in/out logs and leave requests. This is causing significant disruptions and potential legal compliance issues. I believe this is a major security concern that needs to be addressed immediately.",
+            "user_attributes": {
+                "user_experience": "expert",
+                "communication_style": "calm",
+                "issue_category": "security concern"
+            }
+        }
+    },
+    {
+        "example_id": 11,
+        "system": {
+            "system": "ERP System",
+            "description": "A comprehensive suite for managing core business processes."
+        },
+        "industry": {
+            "industry": "Agriculture",
+            "description": "Field involved in cultivating land, raising crops, and rearing livestock for food, fiber, biofuel, and other products."
+        },
+        "workflow": {
+            "workflow_name": "Core Business Process Management in Agriculture with ERP",
+            "workflow_description": "This workflow facilitates the comprehensive management of core business processes within the agricultural industry, encompassing activities related to cultivating land, raising crops, and rearing livestock for food, fiber, biofuel, and other products.",
+            "workflow_components": [
+                {
+                    "name": "Production Planning Module",
+                    "description": "Facilitates the creation and optimization of production plans for planting, cultivation, and harvesting of various crops and livestock."
+                },
+                {
+                    "name": "Inventory Management System",
+                    "description": "Tracks and manages the inventory of agricultural inputs, such as seeds, fertilizers, and farm equipment, as well as the output of harvested crops and livestock products."
+                },
+                {
+                    "name": "Supply Chain Management Module",
+                    "description": "Coordinates the sourcing of raw materials, transportation, and distribution of agricultural products to various markets and customers."
+                },
+                {
+                    "name": "Field Operations Tracking System",
+                    "description": "Captures and manages data related to field activities, including crop health monitoring, irrigation scheduling, and livestock feeding records."
+                },
+                {
+                    "name": "Quality Assurance and Compliance Module",
+                    "description": "Ensures adherence to industry regulations, quality standards, and certification requirements for agricultural products."
+                }
+            ]
+        },
+        "malfunction": {
+            "affected_component": {
+                "name": "Field Operations Tracking System",
+                "description": "Captures and manages data related to field activities, including crop health monitoring, irrigation scheduling, and livestock feeding records."
+            },
+            "malfunction_description": "The Field Operations Tracking System is experiencing a critical malfunction where it fails to capture and store data related to crop health monitoring. As a result, crucial information about crop conditions and potential issues is not being logged, leading to a lack of visibility into the health of crops and potential threats to agricultural production. This could significantly impact decision-making processes related to crop management and lead to suboptimal agricultural outcomes.",
+            "severity": "critical"
+        },
+        "user_complaint": {
+            "user_complaint": "I'm extremely frustrated with the Field Operations Tracking System! It's failing to capture and store crucial data about crop health monitoring. This is a critical issue as it's impacting our ability to make informed decisions about crop management and could lead to suboptimal agricultural outcomes.",
+            "user_attributes": {
+                "user_experience": "experienced",
+                "communication_style": "frustrated",
+                "issue_category": "data inconsistency"
+            }
+        }
+    },
+    {
+        "example_id": 12,
+        "system": {
+            "system": "E-Business",
+            "description": "E-Business suite for managing online business transactions and interactions with customers, suppliers, and partners."
+        },
+        "industry": {
+            "industry": "Agriculture",
+            "description": "Field involved in cultivating land, raising crops, and rearing livestock for food, fiber, biofuel, and other products."
+        },
+        "workflow": {
+            "workflow_name": "E-Business Transaction Management in Agriculture Industry",
+            "workflow_description": "This workflow facilitates the electronic management of business transactions and interactions within the agriculture industry, including activities related to online sales, procurement, and collaboration with customers, suppliers, and partners.",
+            "workflow_components": [
+                {
+                    "name": "E-Commerce Platform",
+                    "description": "Provides a web-based platform for online sales of agricultural products, allowing customers to browse, select, and purchase goods."
+                },
+                {
+                    "name": "Supply Chain Management System",
+                    "description": "Coordinates the procurement of raw materials, equipment, and supplies from various suppliers, optimizing inventory levels and delivery schedules."
+                },
+                {
+                    "name": "Customer Relationship Management (CRM) Software",
+                    "description": "Manages interactions with customers, tracks sales leads, and supports marketing efforts to establish and maintain customer relationships in the agriculture industry."
+                },
+                {
+                    "name": "Supplier Portal",
+                    "description": "A web-based interface for suppliers to manage their product offerings, pricing, and inventory, as well as to receive and process purchase orders from agriculture businesses."
+                },
+                {
+                    "name": "Partner Collaboration Platform",
+                    "description": "Enables collaboration and communication with business partners, facilitating joint ventures, research collaborations, and knowledge sharing within the agriculture industry."
+                }
+            ]
+        },
+        "malfunction": {
+            "affected_component": {
+                "name": "Supplier Portal",
+                "description": "A web-based interface for suppliers to manage their product offerings, pricing, and inventory, as well as to receive and process purchase orders from agriculture businesses."
+            },
+            "malfunction_description": "The Supplier Portal experiences a high-severity malfunction where suppliers are unable to access or update their product offerings, pricing, and inventory. This issue prevents the processing of purchase orders from agriculture businesses, causing delays in supply chain operations and potentially impacting sales and procurement activities within the E-Business Transaction Management in Agriculture Industry workflow.",
+            "severity": "high"
+        },
+        "user_complaint": {
+            "user_complaint": "I'm an experienced user and I am extremely frustrated! The Supplier Portal is failing to load, preventing me from accessing important product offerings, pricing, and inventory data. This is creating major delays in processing purchase orders from agriculture businesses, which is critical to our supply chain operations and procurement activities.",
+            "user_attributes": {
+                "user_experience": "expert",
+                "communication_style": "frustrated",
+                "issue_category": "incorrect data"
+            }
+        }
+    },
+    {
+        "example_id": 13,
+        "system": {
+            "system": "BI",
+            "description": "Business Intelligence system for analyzing and presenting complex data."
+        },
+        "industry": {
+            "industry": "Agriculture",
+            "description": "Field involved in cultivating land, raising crops, and rearing livestock for food, fiber, biofuel, and other products."
+        },
+        "workflow": {
+            "workflow_name": "BI System in Agriculture Industry",
+            "workflow_description": "This workflow involves the use of a Business Intelligence (BI) system in the Agriculture industry for analyzing and presenting complex data to make informed business decisions related to cultivating land, raising crops, and rearing livestock for food, fiber, biofuel, and other products.",
+            "workflow_components": [
+                {
+                    "name": "Data Integration Tool",
+                    "description": "Facilitates the extraction, transformation, and loading (ETL) of data from various sources such as farm management systems, IoT devices, and market information platforms into the BI system."
+                },
+                {
+                    "name": "Data Warehousing",
+                    "description": "Stores and organizes large volumes of structured and unstructured data related to crop yields, weather patterns, soil quality, market prices, and livestock health for analytical purposes."
+                },
+                {
+                    "name": "Reporting and Dashboarding Tool",
+                    "description": "Enables the creation of visual representations, reports, and dashboards to provide insights into key performance indicators (KPIs) such as crop productivity, market demand, and resource utilization."
+                },
+                {
+                    "name": "Predictive Analytics Module",
+                    "description": "Utilizes machine learning algorithms to forecast agricultural trends, identify potential risks, and optimize decision-making processes based on historical and real-time data."
+                },
+                {
+                    "name": "Data Governance Platform",
+                    "description": "Enforces data quality, security, and compliance standards to ensure the integrity and confidentiality of sensitive agricultural data used by the BI system."
+                }
+            ]
+        },
+        "malfunction": {
+            "affected_component": {
+                "name": "Predictive Analytics Module",
+                "description": "Utilizes machine learning algorithms to forecast agricultural trends, identify potential risks, and optimize decision-making processes based on historical and real-time data."
+            },
+            "malfunction_description": "The Predictive Analytics Module is experiencing a high severity malfunction where the machine learning algorithms are producing erratic and unreliable forecasts. This is leading to inaccurate risk assessments and suboptimal decision-making processes, causing financial losses and operational inefficiencies in the Agriculture industry. As a result, the system is providing misleading insights, hindering informed business decisions.",
+            "severity": "high"
+        },
+        "user_complaint": {
+            "user_complaint": "I have been using the Predictive Analytics Module for quite some time, and I must say that the recent erratic forecasts generated by the machine learning algorithms are highly concerning. The inaccurate risk assessments and suboptimal decision-making processes are causing significant financial losses and operational inefficiencies in the Agriculture industry. It's critical that this issue is addressed promptly to prevent further misleading insights hindering our informed business decisions.",
+            "user_attributes": {
+                "user_experience": "expert",
+                "communication_style": "calm",
+                "issue_category": "slowdown"
+            }
+        }
+    },
+    {
+        "example_id": 14,
+        "system": {
+            "system": "DMS",
+            "description": "Document Management System for storing, managing, and tracking electronic documents and images."
+        },
+        "industry": {
+            "industry": "Media and Entertainment",
+            "description": "Industry encompassing the creation, production, and distribution of content for the purposes of entertainment, advertising, or information dissemination."
+        },
+        "workflow": {
+            "workflow_name": "Document Management System for Media and Entertainment",
+            "workflow_description": "This workflow facilitates the storage, management, and tracking of electronic documents and images within the Media and Entertainment industry. It supports the organization, retrieval, and secure sharing of content-related documents and images to facilitate the creation, production, and distribution of entertainment, advertising, or information dissemination content.",
+            "workflow_components": [
+                {
+                    "name": "Document Storage Repository",
+                    "description": "Centralized repository for storing electronic documents and images with secure access control, versioning, and tagging capabilities."
+                },
+                {
+                    "name": "Metadata Management System",
+                    "description": "Manages and standardizes metadata associated with documents and images to enable efficient search, categorization, and content discovery."
+                },
+                {
+                    "name": "Content Workflow Automation",
+                    "description": "Orchestrates automated workflows for document approval, review, and publishing processes to streamline content creation and production."
+                },
+                {
+                    "name": "Digital Rights Management (DRM)",
+                    "description": "Enables secure and controlled access to copyrighted digital media and content, protecting intellectual property rights and licensing agreements."
+                },
+                {
+                    "name": "Content Collaboration Platform",
+                    "description": "Facilitates collaborative editing, feedback, and annotation on documents and images by distributed teams and stakeholders to support creative and production processes."
+                }
+            ]
+        },
+        "malfunction": {
+            "affected_component": {
+                "name": "Content Collaboration Platform",
+                "description": "Facilitates collaborative editing, feedback, and annotation on documents and images by distributed teams and stakeholders to support creative and production processes."
+            },
+            "malfunction_description": "The Content Collaboration Platform fails to sync and update changes made by distributed teams on documents and images, leading to version control issues and conflicting edits. This results in loss of data integrity and productivity delays as team members unknowingly work on outdated versions of the content.",
+            "severity": "high"
+        },
+        "user_complaint": {
+            "user_complaint": "I am deeply frustrated! The Content Collaboration Platform fails to sync and update changes made by distributed teams, leading to version control issues and conflicting edits. This compromising data integrity is a serious security concern, and it's severely impacting our productivity as team members unknowingly work on outdated content versions. This needs urgent attention!",
+            "user_attributes": {
+                "user_experience": "experienced",
+                "communication_style": "frustrated",
+                "issue_category": "security concern"
+            }
+        }
+    },
+    {
+        "example_id": 15,
+        "system": {
+            "system": "CRM",
+            "description": "Customer Relationship Management system for managing interactions with current and potential clients."
+        },
+        "industry": {
+            "industry": "Technology",
+            "description": "Field that involves the application of scientific knowledge for practical purposes, especially in the development of machinery, devices, or systems."
+        },
+        "workflow": {
+            "workflow_name": "Customer Relationship Management (CRM) for Technology Industry",
+            "workflow_description": "This workflow involves managing interactions with current and potential clients in the technology industry. It includes processes such as lead management, customer communication, sales pipeline tracking, and customer support.",
+            "workflow_components": [
+                {
+                    "name": "Lead Management System",
+                    "description": "Captures, qualifies, distributes, and tracks leads from various sources such as website inquiries, trade shows, and marketing campaigns."
+                },
+                {
+                    "name": "Customer Communication Platform",
+                    "description": "Enables personalized and automated communication with clients through channels such as email, SMS, and chat."
+                },
+                {
+                    "name": "Sales Pipeline Tracking Tool",
+                    "description": "Manages sales opportunities, tracks deal stages, forecasts revenue, and provides insights into the sales team's performance."
+                },
+                {
+                    "name": "Customer Support Ticketing System",
+                    "description": "Logs, assigns, and resolves customer inquiries, issues, and escalations through various support channels like email, phone, and online portal."
+                },
+                {
+                    "name": "Analytics and Reporting Module",
+                    "description": "Generates insights and reports on customer interactions, sales performance, customer satisfaction, and marketing campaign effectiveness."
+                }
+            ]
+        },
+        "malfunction": {
+            "affected_component": {
+                "name": "Lead Management System",
+                "description": "Captures, qualifies, distributes, and tracks leads from various sources such as website inquiries, trade shows, and marketing campaigns."
+            },
+            "malfunction_description": "The Lead Management System consistently fails to capture and track leads from website inquiries and marketing campaigns. As a result, potential leads are not being added to the system, causing a significant loss of potential customer opportunities. This issue is critical as it directly impacts the ability to manage interactions with potential clients and affects the effectiveness of the CRM for the technology industry workflow.",
+            "severity": "critical"
+        },
+        "user_complaint": {
+            "user_complaint": "I am extremely frustrated and concerned! The Lead Management System is consistently failing to capture and track leads from website inquiries and marketing campaigns. This is critical as it directly impacts our ability to manage interactions with potential clients and affects the effectiveness of the CRM for our technology industry workflow.",
+            "user_attributes": {
+                "user_experience": "expert",
+                "communication_style": "urgent",
+                "issue_category": "data inconsistency"
+            }
+        }
+    },
+    {
+        "example_id": 16,
+        "system": {
+            "system": "ERP System",
+            "description": "A comprehensive suite for managing core business processes."
+        },
+        "industry": {
+            "industry": "Healthcare",
+            "description": "Industry involved in the maintenance or improvement of health via the diagnosis, treatment, and prevention of disease, illness, injury, and other physical and mental impairments."
+        },
+        "workflow": {
+            "workflow_name": "Patient Care Management in Healthcare ERP",
+            "workflow_description": "This workflow manages the core business processes related to patient care, clinical operations, and administrative functions within the healthcare industry.",
+            "workflow_components": [
+                {
+                    "name": "Patient Information Management System",
+                    "description": "Centralized database housing patient demographics, medical history, treatment plans, and insurance information."
+                },
+                {
+                    "name": "Electronic Health Record (EHR) System",
+                    "description": "Digitally captures, organizes, and retrieves patient health information including medical history, diagnoses, medications, and test results."
+                },
+                {
+                    "name": "Clinical Billing and Revenue Cycle Management",
+                    "description": "Manages patient billing, claims processing, revenue generation, and financial reporting for healthcare services provided."
+                },
+                {
+                    "name": "Inventory and Supply Chain Management",
+                    "description": "Tracks and manages medical inventory, supplies, and pharmaceuticals to ensure efficient stock levels for patient care."
+                },
+                {
+                    "name": "Appointment Scheduling and Resource Allocation",
+                    "description": "Facilitates patient appointments, manages resources such as medical staff, equipment, and facilities for efficient patient care."
+                }
+            ]
+        },
+        "malfunction": {
+            "affected_component": {
+                "name": "Patient Information Management System",
+                "description": "Centralized database housing patient demographics, medical history, treatment plans, and insurance information."
+            },
+            "malfunction_description": "The Patient Information Management System experiences data inconsistency, leading to inaccurate or incomplete patient records. This critical issue impacts the core business processes of patient care, clinical operations, and administrative functions within the healthcare industry, compromising the reliability and integrity of patient information. This could result in incorrect diagnoses, ineffective treatment plans, and billing inaccuracies.",
+            "severity": "critical"
+        },
+        "user_complaint": {
+            "user_complaint": "I am extremely frustrated with the Patient Information Management System! As an experienced user, I rely on accurate and complete patient records to deliver quality care. The data inconsistency is compromising the security and reliability of patient information, leading to potential incorrect diagnoses and treatment plans. This is a critical issue impacting patient care, clinical operations, and administrative functions within the healthcare industry. The integrity of our patient data is at risk!",
+            "user_attributes": {
+                "user_experience": "experienced",
+                "communication_style": "frustrated",
+                "issue_category": "security concern"
+            }
+        }
+    },
+    {
+        "example_id": 17,
+        "system": {
+            "system": "BI",
+            "description": "Business Intelligence system for analyzing and presenting complex data."
+        },
+        "industry": {
+            "industry": "Agriculture",
+            "description": "Field involved in cultivating land, raising crops, and rearing livestock for food, fiber, biofuel, and other products."
+        },
+        "workflow": {
+            "workflow_name": "Business Intelligence in Agriculture",
+            "workflow_description": "This workflow involves the process of leveraging business intelligence to analyze and present complex data in the agriculture industry, enabling informed decision-making for cultivating land, raising crops, and rearing livestock.",
+            "workflow_components": [
+                {
+                    "name": "Data Aggregation System",
+                    "description": "Aggregates raw data from various sources such as field sensors, weather stations, equipment, and supply chain transactions."
+                },
+                {
+                    "name": "Data Warehousing and ETL",
+                    "description": "Stores and processes historical and real-time data, performs ETL (Extract, Transform, Load) processes to ensure data quality and consistency."
+                },
+                {
+                    "name": "Analytical Processing Engine",
+                    "description": "Applies complex algorithms and models to enable statistical analysis, predictive modeling, and optimization of agricultural operations."
+                },
+                {
+                    "name": "Dashboard and Reporting Tool",
+                    "description": "Provides intuitive and interactive visualizations, reports, and key performance indicators to facilitate decision-making for farm management and operations."
+                },
+                {
+                    "name": "Data Security and Governance",
+                    "description": "Enforces data privacy, access control, regulatory compliance, and ensures the integrity of sensitive agricultural data."
+                }
+            ]
+        },
+        "malfunction": {
+            "affected_component": {
+                "name": "Data Security and Governance",
+                "description": "Enforces data privacy, access control, regulatory compliance, and ensures the integrity of sensitive agricultural data."
+            },
+            "malfunction_description": "The data security and governance component experiences intermittent failures in enforcing access control, leading to unauthorized access to sensitive agricultural data. This could result in data breaches, non-compliance with regulations, and risks to the integrity and confidentiality of critical agricultural information.",
+            "severity": "medium"
+        },
+        "user_complaint": {
+            "user_complaint": "I am extremely concerned about the intermittent failures in the data security and governance component. It's imperative that access control is consistently enforced to prevent unauthorized access to sensitive agricultural data. This is a serious security concern that needs urgent attention to avoid potential data breaches and ensure regulatory compliance!",
+            "user_attributes": {
+                "user_experience": "novice",
+                "communication_style": "urgent",
+                "issue_category": "security concern"
+            }
+        }
+    },
+    {
+        "example_id": 18,
+        "system": {
+            "system": "BI",
+            "description": "Business Intelligence system for analyzing and presenting complex data."
+        },
+        "industry": {
+            "industry": "Agriculture",
+            "description": "Field involved in cultivating land, raising crops, and rearing livestock for food, fiber, biofuel, and other products."
+        },
+        "workflow": {
+            "workflow_name": "Business Intelligence for Agriculture Industry",
+            "workflow_description": "This workflow involves the use of business intelligence tools and systems to analyze and present complex data for decision-making in the agriculture industry.",
+            "workflow_components": [
+                {
+                    "name": "Data Acquisition Module",
+                    "description": "Subsystem responsible for collecting and ingesting agricultural data from various sources including sensors, IoT devices, and external databases."
+                },
+                {
+                    "name": "Data Warehousing System",
+                    "description": "Centralized repository for storing historical and current agricultural data in a format optimized for querying and analysis."
+                },
+                {
+                    "name": "Data Analysis and Reporting Tool",
+                    "description": "Software component designed to perform advanced analytics on agricultural data and generate reports and visualizations for decision-making."
+                },
+                {
+                    "name": "Predictive Modeling Engine",
+                    "description": "Component that utilizes machine learning algorithms to forecast agricultural trends, yields, and risks based on historical and real-time data."
+                },
+                {
+                    "name": "Dashboard and Visualization Interface",
+                    "description": "User-facing application for accessing and interacting with analytical insights, KPIs, and performance metrics related to agricultural operations."
+                }
+            ]
+        },
+        "malfunction": {
+            "affected_component": {
+                "name": "Predictive Modeling Engine",
+                "description": "Component that utilizes machine learning algorithms to forecast agricultural trends, yields, and risks based on historical and real-time data."
+            },
+            "malfunction_description": "The Predictive Modeling Engine has experienced a critical malfunction where it is unable to access the historical data necessary for accurate forecasting. This has resulted in significantly inaccurate predictions, leading to misinformed decision-making and potential financial losses for agricultural businesses relying on this data.",
+            "severity": "critical"
+        },
+        "user_complaint": {
+            "user_complaint": "I have encountered a critical issue with the Predictive Modeling Engine. It is currently unable to access the historical data required for accurate forecasting, leading to significantly inaccurate predictions. This has the potential to cause financial losses for agricultural businesses relying on this data.",
+            "user_attributes": {
+                "user_experience": "expert",
+                "communication_style": "calm",
+                "issue_category": "incorrect data"
+            }
+        }
+    },
+    {
+        "example_id": 19,
+        "system": {
+            "system": "DMS",
+            "description": "Document Management System for storing, managing, and tracking electronic documents and images."
+        },
+        "industry": {
+            "industry": "Healthcare",
+            "description": "Industry involved in the maintenance or improvement of health via the diagnosis, treatment, and prevention of disease, illness, injury, and other physical and mental impairments."
+        },
+        "workflow": {
+            "workflow_name": "Document Management in Healthcare",
+            "workflow_description": "This workflow involves storing, managing, and tracking electronic documents and images related to patient records, medical reports, and administrative paperwork within the healthcare industry.",
+            "workflow_components": [
+                {
+                    "name": "Document Repository",
+                    "description": "Central storage for electronic documents and images, with version control and access controls to ensure data security and integrity."
+                },
+                {
+                    "name": "Metadata Management System",
+                    "description": "Captures and manages metadata associated with healthcare documents, including patient information, document type, and creation date, for efficient search and retrieval."
+                },
+                {
+                    "name": "Document Indexing and Search",
+                    "description": "Enables fast and accurate retrieval of documents by indexing content, keywords, and properties for easy search and access across the healthcare organization."
+                },
+                {
+                    "name": "Access Control Module",
+                    "description": "Manages user permissions and access levels to ensure compliance with healthcare privacy regulations (e.g., HIPAA) and restrict unauthorized data access."
+                },
+                {
+                    "name": "Document Workflow Engine",
+                    "description": "Facilitates the routing, approval, and review processes for healthcare documents, ensuring proper authorization and compliance with regulatory requirements."
+                }
+            ]
+        },
+        "malfunction": {
+            "affected_component": {
+                "name": "Document Indexing and Search",
+                "description": "Enables fast and accurate retrieval of documents by indexing content, keywords, and properties for easy search and access across the healthcare organization."
+            },
+            "malfunction_description": "The Document Indexing and Search functionality is experiencing a critical malfunction where the indexing process is consistently failing to capture and update new document content and properties. As a result, the search functionality is returning incomplete or outdated results, impacting the ability to retrieve and access vital patient records, medical reports, and administrative paperwork. This critical issue poses a significant risk to patient care, medical decision-making, and overall operational efficiency within the healthcare organization.",
+            "severity": "critical"
+        },
+        "user_complaint": {
+            "user_complaint": "I am deeply concerned about the current state of the document indexing and search functionality. As an experienced user, I rely heavily on the ability to quickly and accurately retrieve vital patient records, medical reports, and administrative paperwork. However, due to the critical malfunction causing incomplete or outdated search results, my ability to perform essential tasks is severely compromised. This issue is posing a significant risk to patient care and operational efficiency within the healthcare organization.",
+            "user_attributes": {
+                "user_experience": "expert",
+                "communication_style": "calm",
+                "issue_category": "cannot complete task"
+            }
+        }
+    },
+    {
+        "example_id": 20,
+        "system": {
+            "system": "HRM",
+            "description": "Human Resource Management system for managing employee information and processes."
+        },
+        "industry": {
+            "industry": "Agriculture",
+            "description": "Field involved in cultivating land, raising crops, and rearing livestock for food, fiber, biofuel, and other products."
+        },
+        "workflow": {
+            "workflow_name": "Employee Lifecycle Management in Agriculture HRM",
+            "workflow_description": "This workflow manages the complete lifecycle of employees within the agriculture industry, dealing with cultivating land, raising crops, and rearing livestock for food, fiber, biofuel, and other products.",
+            "workflow_components": [
+                {
+                    "name": "HRM Workflow Engine",
+                    "description": "Orchestrates process logic, approval routing, and state transitions for employee lifecycle events (onboarding, termination) specifically tailored for the agriculture industry."
+                },
+                {
+                    "name": "Employee Data Store",
+                    "description": "Centralized database housing sensitive personal information (PII), employment history, and contract documents for agriculture workers."
+                },
+                {
+                    "name": "Payroll Processing Module",
+                    "description": "Computes salaries, tax deductions, and benefits specific to the agriculture industry, such as seasonal payments and agricultural-specific benefits."
+                },
+                {
+                    "name": "Attendance Tracking System",
+                    "description": "Manages shift scheduling, clock-in/out logs, leave requests, and overtime calculations for farm laborers and agricultural workforce."
+                },
+                {
+                    "name": "Training and Development Module",
+                    "description": "Tracks and manages skill development, safety training, and certifications specific to agricultural practices and machinery."
+                }
+            ]
+        },
+        "malfunction": {
+            "affected_component": {
+                "name": "HRM Workflow Engine",
+                "description": "Orchestrates process logic, approval routing, and state transitions for employee lifecycle events (onboarding, termination) specifically tailored for the agriculture industry."
+            },
+            "malfunction_description": "The HRM Workflow Engine is experiencing critical malfunctions in orchestrating the employee lifecycle management workflow within the agriculture industry. Due to a software bug, the approval routing logic fails to trigger, resulting in stalled employee onboarding and termination processes. This disruption leads to significant delays in handling vital employee lifecycle events, impacting operational efficiency and compliance with industry regulations.",
+            "severity": "critical"
+        },
+        "user_complaint": {
+            "user_complaint": "I'm a novice user, and I am really frustrated with the HRM Workflow Engine. It's critical because the approval routing logic fails, which is causing major delays in onboarding and terminating employees. This is really impacting our operations in the agriculture industry!",
+            "user_attributes": {
+                "user_experience": "novice",
+                "communication_style": "frustrated",
+                "issue_category": "security concern"
+            }
+        }
+    }
+]

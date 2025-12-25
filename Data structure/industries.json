@@ -1,0 +1,44 @@
+{
+  "industries": [
+    {
+      "industry": "Technology",
+      "description": "Field that involves the application of scientific knowledge for practical purposes, especially in the development of machinery, devices, or systems."
+    },
+    {
+      "industry": "Healthcare",
+      "description": "Industry involved in the maintenance or improvement of health via the diagnosis, treatment, and prevention of disease, illness, injury, and other physical and mental impairments."
+    },
+    {
+      "industry": "Automotive",
+      "description": "Sector involved in the design, development, manufacturing, marketing, and selling of motor vehicles."
+    },
+    {
+      "industry": "Hospitality",
+      "description": "Industry encompassing accommodation, food and beverage services, and entertainment to meet the needs of travelers and tourists."
+    },
+    {
+      "industry": "Education",
+      "description": "Sector dedicated to the teaching, training, and development of knowledge and skills for personal or professional pursuits."
+    },
+    {
+      "industry": "Retail",
+      "description": "Industry involved in the process of selling consumer goods or services to customers through multiple channels of distribution."
+    },
+    {
+      "industry": "Energy",
+      "description": "Sector focused on the production and supply of power, including electricity, natural gas, and renewable energy sources."
+    },
+    {
+      "industry": "Agriculture",
+      "description": "Field involved in cultivating land, raising crops, and rearing livestock for food, fiber, biofuel, and other products."
+    },
+    {
+      "industry": "Telecommunications",
+      "description": "Sector involved in the exchange of information over significant distances by electronic means, including through mediums such as telephones and the internet."
+    },
+    {
+      "industry": "Media and Entertainment",
+      "description": "Industry encompassing the creation, production, and distribution of content for the purposes of entertainment, advertising, or information dissemination."
+    }
+  ]
+}

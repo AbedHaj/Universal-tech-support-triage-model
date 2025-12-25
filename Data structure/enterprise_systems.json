@@ -1,0 +1,44 @@
+{
+  "systems": [
+    {
+      "system": "ERP System",
+      "description": "A comprehensive suite for managing core business processes."
+    },
+    {
+      "system": "CRM",
+      "description": "Customer Relationship Management system for managing interactions with current and potential clients."
+    },
+    {
+      "system": "HRM",
+      "description": "Human Resource Management system for managing employee information and processes."
+    },
+    {
+      "system": "SCM",
+      "description": "Supply Chain Management system for optimizing the flow of goods and services."
+    },
+    {
+      "system": "BI",
+      "description": "Business Intelligence system for analyzing and presenting complex data."
+    },
+    {
+      "system": "CMS",
+      "description": "Content Management System for creating and managing digital content."
+    },
+    {
+      "system": "EAM",
+      "description": "Enterprise Asset Management system for managing maintenance and use of physical assets."
+    },
+    {
+      "system": "DMS",
+      "description": "Document Management System for storing, managing, and tracking electronic documents and images."
+    },
+    {
+      "system": "PLM",
+      "description": "Product Lifecycle Management system for managing the entire lifecycle of a product from conception through service and disposal."
+    },
+    {
+      "system": "E-Business",
+      "description": "E-Business suite for managing online business transactions and interactions with customers, suppliers, and partners."
+    }
+  ]
+}
