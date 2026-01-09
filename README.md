@@ -42,8 +42,12 @@ To develop a model that automatically analyzes incoming bug-report tickets and p
 │   └── Interim-Presentation-Universal-Tech-Support-Triage-Model.pdf        
 │
 ├── Notebooks/                                                               # End-to-end notebook
-│   ├── Automated-Tech-Support-Triage-Model.ipynb 
-│
+│   ├── Automated-Tech-Support-Triage-Model.ipynb
+│   ├── Synthetic_User_Complaints_Generator.ipynb
+│   ├── Dataset_EDA_and_Validation.ipynb
+│   ├── component_model_baselines.ipynb
+│   └── test_Universal_Tech_Support_Triage_Model.ipnyb
+|
 └── README.md                                                                # Project overview and documentation
 ```
 ## Data Structure examples
