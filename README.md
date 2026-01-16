@@ -75,7 +75,7 @@ To develop a model that automatically analyzes incoming bug-report tickets and p
   <img src="Data%20sets/component%20improvement.png" alt="Structure Example" width="700">
 </p>
 <p align="center">
-  <img src="Data%20sets/Severity%20improvement.png" alt="Structure Example" width="700">
+  <img src="Data%20sets/severity%20improvement.png" alt="Structure Example" width="700">
 </p>
 
 
