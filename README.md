@@ -28,7 +28,7 @@ To develop a model that automatically analyzes incoming bug-report tickets and p
 
 ## Repository structure
 ```
-├── Data structure/                                                          # Ontology and synthetic datasets
+├── Data sets/                                                          # Ontology and synthetic datasets
 │   ├── enterprise_systems.json    
 │   ├── industries.json            
 │   ├── generated_dataset.json
@@ -52,10 +52,10 @@ To develop a model that automatically analyzes incoming bug-report tickets and p
 ```
 ## Data Structure examples
 <p align="center">
-  <img src="Data%20structure/Dataset%20structure.png" alt="Structure Example" width="700">
+  <img src="Data%20sets/Dataset%20structure.png" alt="Structure Example" width="700">
 </p>
 <p align="center">
-  <img src="Data%20structure/Structure%20example.png" alt="Structure Example" width="700">
+  <img src="Data%20sets/Structure%20example.png" alt="Structure Example" width="700">
 </p>
 
 
