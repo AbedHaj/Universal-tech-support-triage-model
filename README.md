@@ -28,28 +28,40 @@ To develop a model that automatically analyzes incoming bug-report tickets and p
 
 ## Repository structure
 ```
-├── Data sets/                                                          # Ontology and synthetic datasets
-│   ├── enterprise_systems.json    
-│   ├── industries.json            
-│   ├── generated_dataset.json
+├── Data sets/                                   # Ontology and synthetic datasets
+│   ├── Datasets/                                # Contains dataset files
+│   │   ├── 2190_dataset.json
+│   │   ├── test_easy.json
+│   │   └── test_hard.json
+│   │
 │   ├── Dataset structure.png
 │   └── Structure example.png
 │
-├── Documents/                                                               # Project presentations and reports
-│   ├── Automated-Tech-Support-Triage-Model-Introduction.pptx                # 1st presentation
-│   ├── Interim-Presentation-Universal-Tech-Support-Triage-Model.pptx        # 2nd presentation
-│   ├── Automated-Tech-Support-Triage-Model-Introduction.pdf                 
-│   └── Interim-Presentation-Universal-Tech-Support-Triage-Model.pdf        
+├── Documents/                                                        # Project presentations and reports
+│   ├── Automated-Tech-Support-Triage-Model-Introduction.pptx         # 1st presentation
+│   ├── Interim-Presentation-Universal-Tech-Support-Triage-Model.pptx # 2nd presentation
+│   ├── Automated-Tech-Support-Triage-Model-Introduction.pdf
+│   ├── Interim-Presentation-Universal-Tech-Support-Triage-Model.pdf
+│   ├── Final presentation.pdf
+│   └── Final presentation.pptx                                       # 3rd presentation
 │
-├── Notebooks/                                                               # End-to-end notebook
-│   ├── Automated-Tech-Support-Triage-Model.ipynb
-│   ├── Synthetic_User_Complaints_Generator.ipynb
-│   ├── Dataset_EDA_and_Validation.ipynb
-│   ├── component_model_baselines.ipynb
-│   └── test_Universal_Tech_Support_Triage_Model.ipnyb
-|
-└── README.md                                                                # Project overview and documentation
-```
+├── Notebooks/                                          # End-to-end notebooks
+│   ├── Synthetic_User_Complaints_Generator.ipynb       # Synthetic dataset generation
+│   ├── Dataset_EDA_and_Validation.ipynb                # Eda
+│   │
+│   ├── Components/                                       
+│   │   ├── Component model drive link.txt             
+│   │   ├── Component_model.ipynb                       # Fine tuned model
+│   │   └── component_model_baselines.ipynb             # Baselike model
+│   │
+│   └── severity/
+│       ├── Severity model drive link.txt
+│       ├── severity_model_baselines.ipynb              # Baseline model
+│       └── severity_roberta.ipynb                      # Fine tuned model
+│
+└── README.md    # Project overview and documentation
+```                             
+
 ## Data Structure examples
 <p align="center">
   <img src="Data%20sets/Dataset%20structure.png" alt="Structure Example" width="700">
