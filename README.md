@@ -35,7 +35,9 @@ To develop a model that automatically analyzes incoming bug-report tickets and p
 │   │   └── test_hard.json
 │   │
 │   ├── Dataset structure.png
-│   └── Structure example.png
+│   ├── Structure example.png
+│   ├── component improvement.png
+│   └── severity improvement.png
 │
 ├── Documents/                                                        # Project presentations and reports
 │   ├── Automated-Tech-Support-Triage-Model-Introduction.pptx         # 1st presentation
@@ -68,6 +70,12 @@ To develop a model that automatically analyzes incoming bug-report tickets and p
 </p>
 <p align="center">
   <img src="Data%20sets/Structure%20example.png" alt="Structure Example" width="700">
+</p>
+<p align="center">
+  <img src="Data%20sets/component%20improvement.png" alt="Structure Example" width="700">
+</p>
+<p align="center">
+  <img src="Data%20sets/Severity%20improvement.png" alt="Structure Example" width="700">
 </p>
 
 
